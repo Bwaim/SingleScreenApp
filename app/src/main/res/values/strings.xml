@@ -16,4 +16,11 @@
 
 <resources>
     <string name="app_name">SingleScreenApp</string>
+    <string name="pokersphere">pokersphere</string>
+    <string name="address1">107 cours Balguerie Stuttenberg</string>
+    <string name="address2">33000 Bordeaux</string>
+    <string name="phone">05 56 50 72 20</string>
+    <string name="website">www.poker-sphere.fr</string>
+    <string name="phoneString">phone</string>
+    <string name="location">location</string>
 </resources>
