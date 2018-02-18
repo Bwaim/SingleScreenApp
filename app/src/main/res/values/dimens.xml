@@ -20,4 +20,5 @@
     <dimen name="mediumMargin">8dp</dimen>
     <dimen name="bigMargin">66dp</dimen>
     <dimen name="one">1dp</dimen>
+    <dimen name="zero">0dp</dimen>
 </resources>

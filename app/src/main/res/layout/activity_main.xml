@@ -47,47 +47,32 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/lightMargin"
                 android:text="@string/pokersphere"
-                android:textAlignment="center"
-                android:textAllCaps="true"
-                android:textAppearance="?android:attr/textAppearanceMedium"
-                android:textColor="@color/colorPrimary" />
+                android:textAllCaps="true" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/lightMargin"
-                android:text="@string/address1"
-                android:textAlignment="center"
-                android:textAppearance="?android:attr/textAppearanceMedium"
-                android:textColor="@color/colorPrimary" />
+                android:text="@string/address1" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/lightMargin"
-                android:text="@string/address2"
-                android:textAlignment="center"
-                android:textAppearance="?android:attr/textAppearanceMedium"
-                android:textColor="@color/colorPrimary" />
+                android:text="@string/address2" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/lightMargin"
-                android:text="@string/phone"
-                android:textAlignment="center"
-                android:textAppearance="?android:attr/textAppearanceMedium"
-                android:textColor="@color/colorPrimary" />
+                android:text="@string/phone" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/lightMargin"
                 android:autoLink="web"
-                android:text="@string/website"
-                android:textAlignment="center"
-                android:textAppearance="?android:attr/textAppearanceMedium"
-                android:textColorLink="@color/colorPrimary" />
+                android:text="@string/website" />
 
         </LinearLayout>
 
@@ -98,25 +83,21 @@
             android:background="@color/colorPrimary">
 
             <ImageView
-                android:layout_width="0dp"
+                style="@style/ImageViewButton"
+                android:layout_width="@dimen/zero"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/one"
                 android:layout_weight="1"
-                android:background="@android:color/black"
                 android:contentDescription="@string/phoneString"
-                android:paddingBottom="@dimen/iconPadding"
-                android:paddingTop="@dimen/iconPadding"
                 android:src="@drawable/ic_phone" />
 
             <ImageView
-                android:layout_width="0dp"
+                style="@style/ImageViewButton"
+                android:layout_width="@dimen/zero"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/one"
                 android:layout_weight="1"
-                android:background="@android:color/black"
                 android:contentDescription="@string/location"
-                android:paddingBottom="@dimen/iconPadding"
-                android:paddingTop="@dimen/iconPadding"
                 android:src="@drawable/ic_directions" />
 
         </LinearLayout>
